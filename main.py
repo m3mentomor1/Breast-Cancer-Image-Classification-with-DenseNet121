@@ -5,7 +5,6 @@ import tensorflow as tf
 from tensorflow.keras.models import load_model
 import requests
 from io import BytesIO
-import h5py
 
 # Function to load the combined model
 @st.cache(allow_output_mutation=True)
@@ -20,10 +19,8 @@ def load_model():
         response = requests.get(part_url)
         model_bytes += response.content
 
-    # Load the combined model using h5py
-    with h5py.File(BytesIO(model_bytes), 'r') as hf:
-        model = tf.keras.models.load_model(hf)
-
+    # Load the combined model
+    model = tf.keras.models.load_model(BytesIO(model_bytes))
     return model
 
 # Load the model
