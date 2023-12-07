@@ -1,13 +1,29 @@
-
 import streamlit as st
-from PIL import Image
 import numpy as np
 import tensorflow as tf
 from tensorflow.keras.models import load_model
+import requests
+from io import BytesIO
+
+# Function to load the combined model
+@st.cache(allow_output_mutation=True)
+def load_model():
+    # URLs for model parts on GitHub
+    base_url = "https://github.com/m3mentomor1/Breast-Cancer-Image-Classification/raw/main/"
+    model_parts = [f"{base_url}best_model.zip.{i:03d}" for i in range(1, 40)]
+
+    # Download and combine model parts
+    model_bytes = b''
+    for part_url in model_parts:
+        response = requests.get(part_url)
+        model_bytes += response.content
+
+    # Load the combined model
+    model = tf.keras.models.load_model(BytesIO(model_bytes))
+    return model
 
 # Load the model
-model_path = "/content/drive/MyDrive/Finals_Model/best_model.h5"
-model = load_model(model_path)
+model = load_model()
 
 # Function to preprocess and make predictions
 def predict(image):
