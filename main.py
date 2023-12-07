@@ -1,10 +1,9 @@
 import streamlit as st
-from PIL import Image
 import numpy as np
 import tensorflow as tf
-from tensorflow.keras.models import load_model
-import requests
 from io import BytesIO
+from PIL import Image
+import requests
 
 # Function to load the combined model
 @st.cache(allow_output_mutation=True)
@@ -22,9 +21,6 @@ def load_model():
     # Load the combined model
     model = tf.keras.models.load_model(BytesIO(model_bytes))
     return model
-
-# Load the model
-model = load_model()
 
 # Function to preprocess and make predictions
 def predict(image):
@@ -46,6 +42,9 @@ if uploaded_file is not None:
     # Display the uploaded image
     image = Image.open(uploaded_file)
     st.image(image, caption='Uploaded Image.', use_column_width=True)
+
+    # Load the model
+    model = load_model()
 
     # Make predictions
     predictions = predict(image)
