@@ -4,6 +4,7 @@ import tensorflow as tf
 from io import BytesIO
 from PIL import Image
 import requests
+import h5py
 
 # Function to load the combined model
 @st.cache(allow_output_mutation=True)
@@ -18,8 +19,11 @@ def load_model():
         response = requests.get(part_url)
         model_bytes += response.content
 
-    # Load the combined model
-    model = tf.keras.models.load_model(BytesIO(model_bytes))
+    # Create an in-memory HDF5 file
+    with h5py.File(BytesIO(model_bytes), 'r') as hf:
+        # Load the combined model
+        model = tf.keras.models.load_model(hf)
+    
     return model
 
 # Function to preprocess and make predictions
