@@ -6,12 +6,19 @@ from PIL import Image
 import requests
 import h5py
 
+# Class mapping
+class_mapping = {
+    0: 'Benign',
+    1: 'Malignant',
+    2: 'Normal',
+}
+
 # Function to load the combined model
 @st.cache(allow_output_mutation=True)
 def load_model():
     # URLs for model parts on GitHub
     base_url = "https://github.com/m3mentomor1/Breast-Cancer-Image-Classification/raw/main/"
-    model_parts = [f"{base_url}best_model.hdf5.h5.part{i:02d}" for i in range(1, 35)]
+    model_parts = [f"{base_url}best_model.hdf5.h5.part{i:02d}" for i in range(1, 34)]
 
     # Download and combine model parts
     model_bytes = b''
@@ -36,7 +43,10 @@ def predict(image, model):
 
     # Make prediction
     predictions = model.predict(img_array)
-    return predictions
+
+    # Get the predicted class
+    predicted_class = class_mapping[np.argmax(predictions)]
+    return predicted_class
 
 # Streamlit app
 st.title('Breast Cancer Image Classification')
@@ -51,5 +61,5 @@ if uploaded_file is not None:
     model = load_model()
 
     # Make predictions
-    predictions = predict(image, model)
-    st.write(f"Predictions: {predictions}")
+    predicted_class = predict(image, model)
+    st.write(f"Prediction: {predicted_class}")
