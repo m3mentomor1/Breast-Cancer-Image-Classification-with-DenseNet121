@@ -6,13 +6,6 @@ from PIL import Image
 import requests
 import h5py
 
-# Class mapping
-class_mapping = {
-    0: 'Benign',
-    1: 'Malignant',
-    2: 'Normal',
-}
-
 # Function to load the combined model
 @st.cache(allow_output_mutation=True)
 def load_model():
@@ -26,12 +19,15 @@ def load_model():
         response = requests.get(part_url)
         model_bytes += response.content
 
-    # Create an in-memory HDF5 file
-    with h5py.File(BytesIO(model_bytes), 'r') as hf:
-        # Load the combined model
-        model = tf.keras.models.load_model(hf)
-
-    return model
+    try:
+        # Create an in-memory HDF5 file
+        with h5py.File(BytesIO(model_bytes), 'r') as hf:
+            # Load the combined model
+            model = tf.keras.models.load_model(hf)
+        return model
+    except Exception as e:
+        st.error(f"Error loading model: {e}")
+        return None
 
 # Function to preprocess and make predictions
 def predict(image, model):
@@ -43,10 +39,7 @@ def predict(image, model):
 
     # Make prediction
     predictions = model.predict(img_array)
-
-    # Get the predicted class
-    predicted_class = class_mapping[np.argmax(predictions)]
-    return predicted_class
+    return predictions
 
 # Streamlit app
 st.title('Breast Cancer Image Classification')
@@ -60,6 +53,7 @@ if uploaded_file is not None:
     # Load the model
     model = load_model()
 
-    # Make predictions
-    predicted_class = predict(image, model)
-    st.write(f"Prediction: {predicted_class}")
+    if model is not None:
+        # Make predictions
+        predictions = predict(image, model)
+        st.write(f"Predictions: {predictions}")
