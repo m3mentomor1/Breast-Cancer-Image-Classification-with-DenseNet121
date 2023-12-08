@@ -23,7 +23,7 @@ def load_model():
     with h5py.File(BytesIO(model_bytes), 'r') as hf:
         # Load the combined model
         model = tf.keras.models.load_model(hf)
-    
+
     return model
 
 # Function to preprocess and make predictions
