@@ -45,7 +45,7 @@ def predict(image, model):
     predictions = model.predict(img_array)
 
     # Get the predicted class
-    predicted_class = class_mapping[np.argmax(predictions)]
+    predicted_class = class_mapping[np.argmax(predictions[0])]
     return predicted_class
 
 # Streamlit app
