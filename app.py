@@ -1,6 +1,6 @@
 import streamlit as st
-import numpy as np
 import tensorflow as tf
+import numpy as np
 from io import BytesIO
 from PIL import Image
 import requests
@@ -11,7 +11,7 @@ import h5py
 def load_model():
     # URLs for model parts on GitHub
     base_url = "https://github.com/m3mentomor1/Breast-Cancer-Image-Classification/raw/main/"
-    model_parts = [f"{base_url}best_model.zip.{i:03d}" for i in range(1, 40)]
+    model_parts = [f"{base_url}best_model.hdf5.h5.part{i:02d}" for i in range(1, 27)]
 
     # Download and combine model parts
     model_bytes = b''
@@ -23,11 +23,11 @@ def load_model():
     with h5py.File(BytesIO(model_bytes), 'r') as hf:
         # Load the combined model
         model = tf.keras.models.load_model(hf)
-    
+
     return model
 
 # Function to preprocess and make predictions
-def predict(image):
+def predict(image, model):
     # Preprocess the image
     img_array = np.array(image)
     img_array = tf.image.resize(img_array, (256, 256))  # Adjust the size as per your model requirements
@@ -51,5 +51,5 @@ if uploaded_file is not None:
     model = load_model()
 
     # Make predictions
-    predictions = predict(image)
+    predictions = predict(image, model)
     st.write(f"Predictions: {predictions}")
