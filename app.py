@@ -19,17 +19,12 @@ def load_model():
         response = requests.get(part_url)
         model_bytes += response.content
 
-    try:
-        # Create an in-memory HDF5 file
-        with h5py.File(BytesIO(model_bytes), 'r') as hf:
-            # Load the combined model
-            model = tf.keras.models.load_model(hf)
-        return model
-    except OSError as e:
-        st.error(f"OSError: {e}")
-    except Exception as e:
-        st.error(f"Error loading model: {e}")
-    return None
+    # Create an in-memory HDF5 file
+    with h5py.File(BytesIO(model_bytes), 'r') as hf:
+        # Load the combined model
+        model = tf.keras.models.load_model(hf)
+    
+    return model
 
 # Function to preprocess and make predictions
 def predict(image, model):
@@ -55,9 +50,6 @@ if uploaded_file is not None:
     # Load the model
     model = load_model()
 
-    if model is not None:
-        # Make predictions
-        predictions = predict(image, model)
-        st.write(f"Predictions: {predictions}")
-    else:
-        st.error("Failed to load the model. Please check the error messages above.")
+    # Make predictions
+    predictions = predict(image, model)
+    st.write(f"Predictions: {predictions}")
