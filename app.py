@@ -25,9 +25,11 @@ def load_model():
             # Load the combined model
             model = tf.keras.models.load_model(hf)
         return model
+    except OSError as e:
+        st.error(f"OSError: {e}")
     except Exception as e:
         st.error(f"Error loading model: {e}")
-        return None
+    return None
 
 # Function to preprocess and make predictions
 def predict(image, model):
@@ -57,3 +59,5 @@ if uploaded_file is not None:
         # Make predictions
         predictions = predict(image, model)
         st.write(f"Predictions: {predictions}")
+    else:
+        st.error("Failed to load the model. Please check the error messages above.")
