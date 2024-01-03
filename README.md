@@ -19,12 +19,20 @@ Source: https://www.kaggle.com/datasets/aryashah2k/breast-ultrasound-images-data
 ----------------------
 
 ### Architecture Used: 
-#### DenseNet121
+#### Convolutional Neural Network (CNN)
+- 
+
+----------------------
+
+### Base Model: 
+####  DenseNet121
 -
 
 ----------------------
 
 ### Dependencies: 
+- 
+- 
 
 ----------------------
 
