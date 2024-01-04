@@ -17,7 +17,7 @@ class_mapping = {
 @st.cache(allow_output_mutation=True)
 def load_model():
     # URLs for model parts on GitHub
-    base_url = "https://github.com/m3mentomor1/Breast-Cancer-Image-Classification/raw/main/"
+    base_url = "https://github.com/m3mentomor1/Breast-Cancer-Image-Classification/raw/main/splitted_model/"
     model_parts = [f"{base_url}best_model.hdf5.h5.part{i:02d}" for i in range(1, 35)]
 
     # Download and combine model parts
