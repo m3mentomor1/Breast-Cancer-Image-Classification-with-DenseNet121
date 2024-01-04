@@ -1,6 +1,7 @@
-streamlit==1.29.0
-tensorflow==2.15.0
-numpy==1.26.2
-Pillow==10.1.0
-requests==2.31.0
-h5py==3.10.0
+pandas
+numpy
+matplotlib
+seaborn
+Pillow
+tensorflow
+keras
