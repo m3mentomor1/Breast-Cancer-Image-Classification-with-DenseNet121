@@ -44,4 +44,4 @@ Download Here:
 ----------------------
 
 ### Streamlit App:
-https://breast-cancer-image-classification-with-app-car9ds6335psqfl8kv.streamlit.app/#breast-cancer-image-classification
+https://breast-cancer-image-classification-with-densenet121-v9dybugp4h.streamlit.app/
