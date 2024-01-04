@@ -5,3 +5,4 @@ seaborn
 Pillow
 tensorflow
 keras
+scikit-learn
