@@ -28,6 +28,8 @@ Source: https://www.kaggle.com/datasets/aryashah2k/breast-ultrasound-images-data
 ####  DenseNet121
 -
 
+Download Weights File Here: https://storage.googleapis.com/tensorflow/keras-applications/densenet/densenet121_weights_tf_dim_ordering_tf_kernels_notop.h5
+
 ----------------------
 
 ### Dependencies: 
