@@ -8,3 +8,4 @@ keras
 scikit-learn
 h5py
 requests
+streamlit
