@@ -24,13 +24,13 @@ The data collected at baseline include breast ultrasound images among women in a
 
 ----------------------
 
-### III. Type of Learning:
+### III. Type of Learning Used:
 #### Supervised Learning
 - 
 
 ----------------------
 
-### IV. Algorithm:
+### IV. Model Algorithm:
 #### Neural Networks 
 - a class of algorithms inspired by the structure and functioning of the human brain. It consists of interconnected nodes organized into layers. These layers typically include an input layer, one or more hidden layers, and an output layer. Each connection between nodes has an associated weight, and nodes within a layer may have activation functions.
 
