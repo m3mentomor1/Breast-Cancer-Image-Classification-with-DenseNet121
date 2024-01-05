@@ -33,7 +33,7 @@ The data collected at baseline include breast ultrasound images among women in a
 #### Convolutional Neural Network (CNN)
 - 
 
-The architecture is implemented using the Keras Sequential API. Below is a detailed summary of the **Model Layers**:
+The architecture is implemented using the Keras Sequential API. Below is a detailed summary of the model's Layers:
 
 1. **DenseNet121 Base Model (Functional):**
    - Output Shape: (None, 8, 8, 1024)
