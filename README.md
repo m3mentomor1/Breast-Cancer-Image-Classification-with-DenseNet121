@@ -1,7 +1,12 @@
 # Breast Cancer Image Classification with DenseNet121
 
 ### Overview:
-This repository focuses on a project dedicated to classifying **Breast Ultrasound Images** into three categories: **benign**, **malignant**, or **normal**. The core of the classification model relies on the use of **Transfer Learning**, harnessing the power of the base model called **DenseNet121**. The model is trained on a comprehensive dataset of annotated breast ultrasound images, leveraging transfer learning to enhance its performance.
+This repository focuses on a project dedicated to classifying **Breast Ultrasound Images** into three categories: 
+- **benign**
+- **malignant**
+- **normal**. 
+
+The core of the classification model relies on the use of **Transfer Learning**, harnessing the power of the base model called **DenseNet121**. The model is trained on a comprehensive dataset of annotated breast ultrasound images, leveraging transfer learning to enhance its performance.
 
 Transfer learning involves strategically adapting a pre-trained model to a specific task by fine-tuning it with a smaller, task-specific dataset. Here, the initial layers of DenseNet121, having acquired general features from a diverse dataset, remain frozen. Subsequent layers, responsible for learning task-specific details, are adjusted to better align with the specific characteristics of breast ultrasound image classification. This approach enables the model to benefit from the broader dataset's knowledge, improving its effectiveness in addressing the unique challenges posed by breast cancer classification.
 
