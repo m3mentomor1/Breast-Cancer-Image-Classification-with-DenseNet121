@@ -18,10 +18,15 @@ Transfer learning involves adapting a pre-trained model to a specific task by fi
 
 The data collected at baseline include breast ultrasound images among women in ages between 25 and 75 years old. This data was collected in 2018. The number of patients is 600 female patients. The dataset consists of 780 images with an average image size of 500*500 pixels. The images are in PNG format. The ground truth images are presented with original images. The images are categorized into three classes, which are normal, benign, and malignant.
 
-Source: Al-Dhabyani W, Gomaa M, Khaled H, Fahmy A. Dataset of breast ultrasound images. Data in Brief. 2020 Feb;28:104863. DOI: 10.1016/j.dib.2019.104863.
+**Source:** Al-Dhabyani W, Gomaa M, Khaled H, Fahmy A. Dataset of breast ultrasound images. Data in Brief. 2020 Feb;28:104863. DOI: 10.1016/j.dib.2019.104863.
 
-Download Dataset: https://www.kaggle.com/datasets/aryashah2k/breast-ultrasound-images-dataset
+**Download Dataset:** https://www.kaggle.com/datasets/aryashah2k/breast-ultrasound-images-dataset
 
+----------------------
+
+### Machine Learning Algorithm:
+#### Neural Networks (Supervised Learning)
+- 
 ----------------------
 
 ### Architecture Used: 
@@ -31,10 +36,10 @@ Download Dataset: https://www.kaggle.com/datasets/aryashah2k/breast-ultrasound-i
 ----------------------
 
 ### Base Model: 
-####  DenseNet121
+#### DenseNet121
 -
 
-Download Weights File Here: https://storage.googleapis.com/tensorflow/keras-applications/densenet/densenet121_weights_tf_dim_ordering_tf_kernels_notop.h5
+**Download Weights File Here:** https://storage.googleapis.com/tensorflow/keras-applications/densenet/densenet121_weights_tf_dim_ordering_tf_kernels_notop.h5
 
 ----------------------
 
