@@ -24,7 +24,7 @@ The data collected at baseline include breast ultrasound images among women in a
 
 ----------------------
 
-### Machine Learning Algorithm:
+### Algorithm Used:
 #### Neural Networks (Supervised Learning)
 - 
 ----------------------
