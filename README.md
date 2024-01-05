@@ -24,12 +24,19 @@ The data collected at baseline include breast ultrasound images among women in a
 
 ----------------------
 
-### III. Algorithm:
-#### Neural Networks (Supervised Learning)
+### III. Type of Learning:
+#### Supervised Learning
 - 
+
 ----------------------
 
-### IV. Model Architecture 
+### IV. Algorithm:
+#### Neural Networks 
+- a class of algorithms inspired by the structure and functioning of the human brain. It consists of interconnected nodes organized into layers. These layers typically include an input layer, one or more hidden layers, and an output layer. Each connection between nodes has an associated weight, and nodes within a layer may have activation functions.
+
+----------------------
+
+### V. Model Architecture 
 #### Convolutional Neural Network (CNN)
 - a type of deep learning model architecture designed specifically for processing structured grid data, such as images. CNNs have proven to be highly effective in computer vision tasks, including image classification, object detection, segmentation, and more. They are characterized by their ability to automatically and adaptively learn spatial hierarchies of features directly from the data.
 ##
@@ -81,7 +88,7 @@ The architecture is implemented using the Keras Sequential API. Below is a detai
 
 ----------------------
 
-### V. Base Model
+### VI. Base Model
 #### DenseNet121
 -
 
@@ -89,7 +96,7 @@ The architecture is implemented using the Keras Sequential API. Below is a detai
 
 ----------------------
 
-### VI. Dependencies
+### VII. Dependencies
 
 ***Main***
 - **Pandas** - a data analysis library that provides data structures like DataFrames for efficient data handling. 
@@ -110,7 +117,7 @@ The architecture is implemented using the Keras Sequential API. Below is a detai
 
 ----------------------
 
-### VII. Model Accuracy
+### VIII. Model Accuracy
 After evaluating the model using the test set (test_images), it demonstrated an overall accuracy of "**85.44%**". 
 
 **Download Model Here:**
@@ -119,5 +126,5 @@ After evaluating the model using the test set (test_images), it demonstrated an 
 
 ----------------------
 
-### VIII. Streamlit App
+### IX. Streamlit App
 **Click this link to open:** https://breast-cancer-image-classification-with-densenet121-v9dybugp4h.streamlit.app/
