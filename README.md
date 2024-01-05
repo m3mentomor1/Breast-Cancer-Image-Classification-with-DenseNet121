@@ -60,7 +60,7 @@ The data collected at baseline include breast ultrasound images among women in a
 - **Requests**
 - **Streamlit**
 
-txt file: requirements.txt
+txt file: [requirements.txt](https://github.com/m3mentomor1/Breast-Cancer-Image-Classification-with-DenseNet121/blob/f8a7a3b747ab8b3d81acb7bbda0251ff1063ee14/requirements.txt)
 
 ----------------------
 
