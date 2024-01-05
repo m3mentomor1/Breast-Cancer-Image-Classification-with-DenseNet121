@@ -12,7 +12,7 @@ Transfer learning involves adapting a pre-trained model to a specific task by fi
 
 ----------------------
 
-### Dataset Used
+### Dataset
 #### Breast Ultrasound Images
 - Breast cancer is one of the most common causes of death among women worldwide. Early detection helps in reducing the number of early deaths. The data reviews the medical images of breast cancer using ultrasound scan. Breast Ultrasound Dataset is categorized into three classes: normal, benign, and malignant images. Breast ultrasound images can produce great results in classification, detection, and segmentation of breast cancer when combined with machine learning.
 
@@ -24,18 +24,18 @@ The data collected at baseline include breast ultrasound images among women in a
 
 ----------------------
 
-### Algorithm Used:
+### Algorithm:
 #### Neural Networks (Supervised Learning)
 - 
 ----------------------
 
-### Architecture Used: 
+### Architecture 
 #### Convolutional Neural Network (CNN)
 - 
 
 ----------------------
 
-### Base Model: 
+### Base Model
 #### DenseNet121
 -
 
@@ -43,7 +43,7 @@ The data collected at baseline include breast ultrasound images among women in a
 
 ----------------------
 
-### Dependencies: 
+### Dependencies
 
 ***Main***
 - **Pandas** - a data analysis library that provides data structures like DataFrames for efficient data handling. 
@@ -64,12 +64,12 @@ The data collected at baseline include breast ultrasound images among women in a
 
 ----------------------
 
-### Model: 
+### Model 
 After evaluating the model using the test set (test_images), it demonstrated an overall accuracy of "**85.44%**". 
 
 Download Here: 
 
 ----------------------
 
-### Streamlit App:
+### Streamlit App
 https://breast-cancer-image-classification-with-densenet121-v9dybugp4h.streamlit.app/
