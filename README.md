@@ -38,7 +38,7 @@ Download Weights File Here: https://storage.googleapis.com/tensorflow/keras-appl
 ----------------------
 
 ### Model: 
-The model has an overall accuracy of **85.44%**
+After evaluating the model using the test set (test_images), it demonstrated an overall accuracy of ***85.44%***. 
 
 Download Here: 
 
