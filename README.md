@@ -69,7 +69,7 @@ After evaluating the model using the test set (test_images), it demonstrated an 
 
 **Download Here:**
 Whole | 
-Splitted File | 
+Splitted File | https://github.com/m3mentomor1/Breast-Cancer-Image-Classification-with-DenseNet121/tree/fcb1bcfedd11d733427bd96ae791ed0fbeefdcd5/splitted_model
 
 ----------------------
 
