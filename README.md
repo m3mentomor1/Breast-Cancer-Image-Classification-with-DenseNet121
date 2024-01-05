@@ -1,6 +1,6 @@
 # Breast Cancer Image Classification with DenseNet121
 
-## I. Overview
+### I. Overview
 This repository focuses on a project dedicated to classifying **Breast Ultrasound Images** into three categories: 
 - **benign**
 - **malignant**
@@ -12,7 +12,7 @@ Transfer learning involves adapting a pre-trained model to a specific task by fi
 
 ----------------------
 
-## II. Dataset
+### II. Dataset
 #### Breast Ultrasound Images
 - Breast cancer is one of the most common causes of death among women worldwide. Early detection helps in reducing the number of early deaths. The data reviews the medical images of breast cancer using ultrasound scan. Breast Ultrasound Dataset is categorized into three classes: normal, benign, and malignant images. Breast ultrasound images can produce great results in classification, detection, and segmentation of breast cancer when combined with machine learning.
 
@@ -24,12 +24,12 @@ The data collected at baseline include breast ultrasound images among women in a
 
 ----------------------
 
-## III. Algorithm:
+### III. Algorithm:
 #### Neural Networks (Supervised Learning)
 - 
 ----------------------
 
-## IV. Model Architecture 
+### IV. Model Architecture 
 #### Convolutional Neural Network (CNN)
 - a type of deep learning model architecture designed specifically for processing structured grid data, such as images. CNNs have proven to be highly effective in computer vision tasks, including image classification, object detection, segmentation, and more. They are characterized by their ability to automatically and adaptively learn spatial hierarchies of features directly from the data.
 ##
@@ -81,7 +81,7 @@ The architecture is implemented using the Keras Sequential API. Below is a detai
 
 ----------------------
 
-## V. Base Model
+### V. Base Model
 #### DenseNet121
 -
 
@@ -89,7 +89,7 @@ The architecture is implemented using the Keras Sequential API. Below is a detai
 
 ----------------------
 
-## VI. Dependencies
+### VI. Dependencies
 
 ***Main***
 - **Pandas** - a data analysis library that provides data structures like DataFrames for efficient data handling. 
@@ -110,7 +110,7 @@ The architecture is implemented using the Keras Sequential API. Below is a detai
 
 ----------------------
 
-## VII. Model Accuracy
+### VII. Model Accuracy
 After evaluating the model using the test set (test_images), it demonstrated an overall accuracy of "**85.44%**". 
 
 **Download Model Here:**
@@ -119,5 +119,5 @@ After evaluating the model using the test set (test_images), it demonstrated an 
 
 ----------------------
 
-## VIII. Streamlit App
+### VIII. Streamlit App
 **Click this link to open:** https://breast-cancer-image-classification-with-densenet121-v9dybugp4h.streamlit.app/
