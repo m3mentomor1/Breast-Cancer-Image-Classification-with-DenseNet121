@@ -45,7 +45,7 @@ The data collected at baseline include breast ultrasound images among women in a
 
 ### Dependencies: 
 
-***Main****
+***Main***
 - **Pandas** - a data analysis library that provides data structures like DataFrames for efficient data handling. 
 - **NumPy** - a library for scientific computing with Python.
 - **Matplotlib** - a comprehensive library for creating static, interactive, and animated plots in Python, facilitating data visualization tasks.
