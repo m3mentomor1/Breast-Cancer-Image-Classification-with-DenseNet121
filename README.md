@@ -67,7 +67,7 @@ The data collected at baseline include breast ultrasound images among women in a
 ## Model 
 After evaluating the model using the test set (test_images), it demonstrated an overall accuracy of "**85.44%**". 
 
-**Download Here:**
+**Download Model Here:**
 - Single File: [model.h5](https://drive.google.com/file/d/14tfAoUQDBRwJKL-5ooWFXqMLy-Ki2lX7/view?usp=drive_link)
 - Splitted File: [splitted_model](https://github.com/m3mentomor1/Breast-Cancer-Image-Classification-with-DenseNet121/tree/fcb1bcfedd11d733427bd96ae791ed0fbeefdcd5/splitted_model)
 
