@@ -40,7 +40,7 @@ The data collected at baseline include breast ultrasound images among women in a
 #### Convolutional Neural Network (CNN)
 - a type of deep learning model architecture designed specifically for processing structured grid data, such as images. CNNs have proven to be highly effective in computer vision tasks, including image classification, object detection, segmentation, and more. They are characterized by their ability to automatically and adaptively learn spatial hierarchies of features directly from the data.
 ##
-The model's architecture is implemented using the Keras Sequential API. Below is a detailed summary of its layers:
+The model's architecture is implemented using the **Keras Sequential API**. Below is a detailed summary of its layers:
 
 1. **DenseNet121 Base Model (Functional):**
    - Output Shape: (None, 8, 8, 1024)
