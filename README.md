@@ -4,7 +4,7 @@
 This repository focuses on a project dedicated to classifying **Breast Ultrasound Images** into three categories: 
 - **benign**
 - **malignant**
-- **normal**. 
+- **normal**
 
 The core of the classification model relies on the use of **Transfer Learning**, harnessing the power of the base model called **DenseNet121**. The model is trained on a comprehensive dataset of annotated breast ultrasound images, leveraging transfer learning to enhance its performance.
 
