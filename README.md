@@ -55,10 +55,16 @@ The data collected at baseline include breast ultrasound images among women in a
 - **Keras** - a high-level neural networks API written in Python, capable of running on top of TensorFlow. This library is utilized for building and training deep learning models.
 - **scikit-learn**
 
-***Others****
+***Others***
 - **h5py**
 - **Requests**
 - **Streamlit**
+
+**Installation:**
+1. Download the **'requirements.txt'** file from this repository.
+2. Open a terminal or command prompt and change the current working directory to where your **requirements.txt** file is located.
+3. Run the following command: **pip install -r requirements.txt**
+4. Verify the installed dependencies by running the following command: **pip list**
 
 ----------------------
 
