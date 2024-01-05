@@ -60,7 +60,7 @@ The data collected at baseline include breast ultrasound images among women in a
 - **Requests**
 - **Streamlit**
 
-txt file: 
+txt file: requirements.txt
 
 ----------------------
 
