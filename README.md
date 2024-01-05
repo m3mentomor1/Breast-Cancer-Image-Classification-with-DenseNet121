@@ -67,7 +67,9 @@ The data collected at baseline include breast ultrasound images among women in a
 ## Model 
 After evaluating the model using the test set (test_images), it demonstrated an overall accuracy of "**85.44%**". 
 
-Download Here: 
+**Download Here:**
+Whole | 
+Splitted File | 
 
 ----------------------
 
