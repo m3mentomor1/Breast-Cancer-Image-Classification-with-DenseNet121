@@ -25,7 +25,7 @@ Transfer learning involves adapting a pre-trained model to a specific task by fi
 
 ----------------------
 
-### 🧑🏻‍💻 III. Type of Learning Used
+### 🧑🏻‍💻 III. Learning Approach Used
 #### Supervised Learning
 - a type of learning in machine learning that involves training an algorithm on labeled data, where input samples are paired with corresponding output labels. The objective is to learn a mapping from input data to correct output labels by adjusting internal parameters during training, minimizing the difference between predicted outputs and true labels.
 
