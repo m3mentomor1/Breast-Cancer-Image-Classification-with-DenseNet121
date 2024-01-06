@@ -163,6 +163,30 @@ The model's architecture is implemented using the **Keras Sequential API**. Belo
    > Column 2 (0): The model predicted "malignant," but the true class was "normal." There are 0 instances (image/s) of this case.
    
    > Column 3 (24): The model predicted "normal," and the true class was also "normal." There are 24 instances (image/s) where both the prediction and the true class are "normal."
+
+|            | Precision | Recall | F1-Score | Support |
+|------------|-----------|--------|----------|---------|
+| Benign     | 0.93      | 0.99   | 0.96     | 90      |
+| Malignant  | 1.00      | 0.88   | 0.94     | 42      |
+| Normal     | 0.96      | 0.92   | 0.94     | 26      |
+|------------|-----------|--------|----------|---------|
+| Accuracy   |           |        | 0.95     | 158     |
+| Macro Avg  | 0.96      | 0.93   | 0.94     | 158     |
+| Weighted Avg| 0.95      | 0.95   | 0.95     | 158     |
+
+- Precision - a measure of the accuracy of the positive predictions. It is the ratio of true positive predictions to the sum of true positives and false positives. In the table, it is presented for each class (Benign, Malignant, Normal) and also as Macro Avg (average across classes) and Weighted Avg (weighted average based on support).
+
+- Recall - also known as sensitivity or true positive rate, is the ratio of true positive predictions to the sum of true positives and false negatives. It is presented for each class, as well as Macro Avg and Weighted Avg.
+
+- F1-Score - the harmonic mean of precision and recall. It is a single metric that combines both precision and recall. Like precision and recall, it is presented for each class, Macro Avg, and Weighted Avg.
+
+- Support - the number of actual occurrences of the class in the specified dataset. It is the last column for each class.
+
+- Accuracy - the ratio of correctly predicted instances to the total instances. It is presented as an overall accuracy in the last column of the Accuracy row.
+
+- Macro Avg - this row presents the macro-averaged values for precision, recall, and F1-Score. Macro-averaging calculates the metric independently for each class and then takes the average. It treats all classes equally.
+
+- Weighted Avg - this row presents the weighted-averaged values for precision, recall, and F1-Score. Weighted averaging is similar to macro-averaging, but it takes into account the number of instances for each class. It is often used when there is an imbalance in class distribution.
 ##
 After evaluating the model using the test set ([test_images](https://github.com/m3mentomor1/Breast-Cancer-Image-Classification-with-DenseNet121/tree/7eb700a208efcd84beafbf412274f594bf1b85ce/test_images)), it demonstrated an overall accuracy of:
 ### "94.94%"
