@@ -189,6 +189,7 @@ The model's architecture is implemented using the **Keras Sequential API**. Belo
 
 - **Weighted Avg** - this row presents the weighted-averaged values for precision, recall, and F1-Score. Weighted averaging is similar to macro-averaging, but it takes into account the number of instances for each class. It is often used when there is an imbalance in class distribution.
 ##
+**Overall Accuracy**
 After evaluating the model using the test set ([test_images](https://github.com/m3mentomor1/Breast-Cancer-Image-Classification-with-DenseNet121/tree/7eb700a208efcd84beafbf412274f594bf1b85ce/test_images)), it demonstrated an overall accuracy of:
 ### "94.94%"
 
