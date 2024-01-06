@@ -125,45 +125,6 @@ The model's architecture is implemented using the **Keras Sequential API**. Belo
 | Validation   | 0.188313  | 90.97%    |
 | Test         | 0.136501  | 94.94%    |
 
-**1st Image**
-Real Class: malignant
-Predicted Class: malignant
-"Correct"
-![image](https://github.com/m3mentomor1/Breast-Cancer-Image-Classification-with-DenseNet121/assets/95956735/a68b2ec0-49c9-446b-80bd-e3da3783fd6f)
-
-**2nd Image**
-Real Class: normal
-Predicted Class: normal
-"Correct"
-![image](https://github.com/m3mentomor1/Breast-Cancer-Image-Classification-with-DenseNet121/assets/95956735/02afa95d-52a8-4ef5-8662-5aecad1470c0)
-
-**3rd Image**
-Real Class: benign
-Predicted Class: benign
-"Correct"
-![image](https://github.com/m3mentomor1/Breast-Cancer-Image-Classification-with-DenseNet121/assets/95956735/6a854899-2627-459c-b998-5622cd187797)
-
-**4th Image**
-Real Class: malignant
-Predicted Class: malignant
-"Correct"
-![image](https://github.com/m3mentomor1/Breast-Cancer-Image-Classification-with-DenseNet121/assets/95956735/fdc6b068-9640-4d9c-9744-6399e31cc3b2)
-
-
-**5th Image**
-Real Class: benign
-Predicted Class: benign
-"Correct"
-![image](https://github.com/m3mentomor1/Breast-Cancer-Image-Classification-with-DenseNet121/assets/95956735/6c5461f8-c4f1-4240-b180-c3c241ff9002)
-
-**6th Image**
-Real Class: normal
-Predicted Class: benign
-"Incorrect"
-![image](https://github.com/m3mentomor1/Breast-Cancer-Image-Classification-with-DenseNet121/assets/95956735/01c54b11-befb-494b-8212-e9e59aa3ace1)
-
-5 out of 6 images are classified correctly.
-
 After evaluating the model using the test set ([test_images](https://github.com/m3mentomor1/Breast-Cancer-Image-Classification-with-DenseNet121/tree/7eb700a208efcd84beafbf412274f594bf1b85ce/test_images)), it demonstrated an overall accuracy of "**94.94%**". (For reference see: )
 
 **Download Model Here:**
