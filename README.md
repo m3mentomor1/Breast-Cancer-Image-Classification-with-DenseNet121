@@ -89,7 +89,7 @@ The model's architecture is implemented using the **Keras Sequential API**. Belo
 
 ----------------------
 
-### VI. 🚩 Base Model
+### 🚩 VI. Base Model
 #### DenseNet121
 - a CNN architecture widely used as a base model for image classification tasks. It is part of the DenseNet (Densely Connected Convolutional Networks) family of models. These architectures are characterized by dense connectivity patterns, where each layer receives direct input from all preceding layers. The "121" in DenseNet121 denotes the total number of layers in the network.
 
