@@ -125,11 +125,6 @@ The model's architecture is implemented using the **Keras Sequential API**. Belo
 | Validation   | 0.188313  | 90.97%    |
 | Test         | 0.136501  | 94.94%    |
 
-Overall Accuracy = **94.94%**
-
-----------------------
-
-### IX. Model Accuracy
 After evaluating the model using the test set ([test_images](https://github.com/m3mentomor1/Breast-Cancer-Image-Classification-with-DenseNet121/tree/7eb700a208efcd84beafbf412274f594bf1b85ce/test_images)), it demonstrated an overall accuracy of "**94.94%**". 
 
 **Download Model Here:**
@@ -138,7 +133,7 @@ After evaluating the model using the test set ([test_images](https://github.com/
 
 ----------------------
 
-### X. Deployment
+### IX. Deployment
 <img src="https://github.com/m3mentomor1/Breast-Cancer-Image-Classification-with-DenseNet121/assets/95956735/6d0001fd-6890-44aa-8f25-223b21e8ab39" width="300" />
 
 - a free and open-source Python framework to rapidly build and share beautiful machine learning and data science web apps. 
