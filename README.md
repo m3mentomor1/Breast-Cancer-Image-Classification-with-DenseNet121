@@ -10,6 +10,8 @@ The classification model used in this project relies on deep learning techniques
 
 Transfer learning involves adapting a pre-trained model to a specific task by fine-tuning it with a smaller, task-specific dataset. Here, the initial layers of DenseNet121, having acquired general features from a diverse dataset, remain frozen. Subsequent layers, responsible for learning task-specific details, are adjusted to better align with the specific characteristics of breast ultrasound image classification. 
 
+**Note:** This project involves multiclass classification.
+
 ----------------------
 
 ### 🗂️ II. Dataset
