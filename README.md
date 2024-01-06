@@ -140,6 +140,6 @@ After evaluating the model using the test set ([test_images](https://github.com/
 
 - a free and open-source Python framework to rapidly build and share beautiful machine learning and data science web apps. 
 ##
-The model is deployed using **Streamlit**, allowing for a straightforward and accessible user interface where users can conveniently do breast cancer image classification.
+The model is deployed on **Streamlit**, allowing for a straightforward and accessible user interface where users can conveniently do breast cancer image classification.
 
 **Access the app here:** https://breast-cancer-image-classification-with-densenet121-v9dybugp4h.streamlit.app/
