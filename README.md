@@ -164,6 +164,7 @@ The model's architecture is implemented using the **Keras Sequential API**. Belo
    
    > Column 3 (24): The model predicted "normal," and the true class was also "normal." There are 24 instances (image/s) where both the prediction and the true class are "normal."
 
+**Classification Report**
 |            | Precision | Recall | F1-Score | Support |
 |------------|-----------|--------|----------|---------|
 | Benign     | 0.93      | 0.99   | 0.96     | 90      |
