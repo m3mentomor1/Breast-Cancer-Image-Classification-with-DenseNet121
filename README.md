@@ -139,7 +139,7 @@ The model's architecture is implemented using the **Keras Sequential API**. Belo
 | Validation   | 0.188313  | 90.97%    |
 | Test         | 0.136501  | 94.94%    |
 ##
-**Confusion Matrix**
+**Confusion Matrix (Test Set)**
 
 ![image](https://github.com/m3mentomor1/Breast-Cancer-Image-Classification-with-DenseNet121/assets/95956735/48203e05-3c58-441c-aa56-7064245d77d9)
 
