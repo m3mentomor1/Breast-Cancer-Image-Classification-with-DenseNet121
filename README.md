@@ -1,5 +1,5 @@
 # Breast Cancer Image Classification with DenseNet121
-----------------------
+
 ### I. Overview
 This repository focuses on a project dedicated to classifying **Breast Ultrasound Images** into three categories: 
 - **benign**
