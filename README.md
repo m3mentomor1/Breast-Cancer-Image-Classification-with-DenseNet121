@@ -114,7 +114,7 @@ The model's architecture is implemented using the **Keras Sequential API**. Belo
 - **Requests**
 - **Streamlit**
 
-**TXT File:** [requirements.txt](https://github.com/m3mentomor1/Breast-Cancer-Image-Classification-with-DenseNet121/blob/f8a7a3b747ab8b3d81acb7bbda0251ff1063ee14/requirements.txt)
+**Download TXT File Here:** [requirements.txt](https://github.com/m3mentomor1/Breast-Cancer-Image-Classification-with-DenseNet121/blob/f8a7a3b747ab8b3d81acb7bbda0251ff1063ee14/requirements.txt)
 
 ----------------------
 
