@@ -13,6 +13,8 @@ Transfer learning involves adapting a pre-trained model to a specific task by fi
 ----------------------
 
 ### II. Dataset
+![image](https://github.com/m3mentomor1/Breast-Cancer-Image-Classification-with-DenseNet121/assets/95956735/47e76b23-1542-4576-9127-6f30077733f3)
+
 #### Breast Ultrasound Images
 - Breast cancer is one of the most common causes of death among women worldwide. Early detection helps in reducing the number of early deaths. The data reviews the medical images of breast cancer using ultrasound scan. Breast Ultrasound Dataset is categorized into three classes: normal, benign, and malignant images. Breast ultrasound images can produce great results in classification, detection, and segmentation of breast cancer when combined with machine learning.
 
