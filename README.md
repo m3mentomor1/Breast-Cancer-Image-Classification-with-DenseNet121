@@ -135,7 +135,7 @@ The model's architecture is implemented using the **Keras Sequential API**. Belo
 |--------------|-----------|-----------|
 | Train        | 0.038702  | 99.04%    |
 | Validation   | 0.188313  | 90.97%    |
-| Test     | 0.136501  | <code style="color : greenyellow">94.94%</code>    |
+| Test     | 0.136501  | <code style="color : #c5f015">94.94%</code>    |
 
 
 
