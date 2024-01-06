@@ -28,7 +28,7 @@ Transfer learning involves adapting a pre-trained model to a specific task by fi
 ### 🧑🏻‍💻 III. Learning Approach Used
 #### Supervised Learning
 - a type of learning in machine learning that involves training an algorithm on labeled data, where input samples are paired with corresponding output labels. The objective is to learn a mapping from input data to correct output labels by adjusting internal parameters during training, minimizing the difference between predicted outputs and true labels.
-
+##
 **Why Supervised Learning?**
 
 The model's training adopted a supervised learning approach, as the dataset included explicit labels for each image. 
@@ -48,6 +48,10 @@ In image classification, neural networks excel at capturing subtle patterns and 
 ### 📐 V. Model Architecture 
 #### Convolutional Neural Network (CNN)
 - a type of deep learning model architecture designed specifically for processing structured grid data, such as images. CNNs have proven to be highly effective in computer vision tasks, including image classification, object detection, segmentation, and more. They are characterized by their ability to automatically and adaptively learn spatial hierarchies of features directly from the data.
+##
+**Why CNN?**
+
+CNNs have proven to be highly effective in computer vision tasks due to their ability to automatically and adaptively learn spatial hierarchies of features directly from diverse data sources such as images and videos.
 ##
 The model's architecture is implemented using the **Keras Sequential API**. Below is a detailed summary of its layers:
 
