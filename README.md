@@ -12,7 +12,7 @@ Transfer learning involves adapting a pre-trained model to a specific task by fi
 
 ----------------------
 
-### II. 🗂️ Dataset
+### 🗂️ II. Dataset
 ![image](https://github.com/m3mentomor1/Breast-Cancer-Image-Classification-with-DenseNet121/assets/95956735/47e76b23-1542-4576-9127-6f30077733f3)
 
 #### Breast Ultrasound Images
