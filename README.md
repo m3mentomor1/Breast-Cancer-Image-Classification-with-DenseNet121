@@ -126,7 +126,7 @@ The model's architecture is implemented using the **Keras Sequential API**. Belo
 After evaluating the model using the test set ([test_images](https://github.com/m3mentomor1/Breast-Cancer-Image-Classification-with-DenseNet121/tree/7eb700a208efcd84beafbf412274f594bf1b85ce/test_images)), it demonstrated an overall accuracy of "**85.44%**". 
 
 **Download Model Here:**
-- Single File: [model.h5](https://drive.google.com/file/d/14tfAoUQDBRwJKL-5ooWFXqMLy-Ki2lX7/view?usp=drive_link)
+- Single File: [model.h5](https://drive.google.com/file/d/1lxY2mH7dQ9hVh5mYipKWLCBuKJRDD1sj/view?usp=drive_link)
 - Splitted File: [splitted_model](https://github.com/m3mentomor1/Breast-Cancer-Image-Classification-with-DenseNet121/tree/fcb1bcfedd11d733427bd96ae791ed0fbeefdcd5/splitted_model) (Splitted using [PineTools File Splitter](https://pinetools.com/split-files))
 
 ----------------------
