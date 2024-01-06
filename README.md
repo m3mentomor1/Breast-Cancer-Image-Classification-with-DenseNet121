@@ -31,13 +31,13 @@ Transfer learning involves adapting a pre-trained model to a specific task by fi
 
 ----------------------
 
-### IV. Model Algorithm
+### 🧮 IV. Model Algorithm
 #### Neural Networks 
 - a class of algorithms inspired by the structure and functioning of the human brain. It consists of interconnected nodes organized into layers. These layers typically include an input layer, one or more hidden layers, and an output layer. Each connection between nodes has an associated weight, and nodes within a layer may have activation functions.
 
 ----------------------
 
-### V. Model Architecture 
+### V. 📐 Model Architecture 
 #### Convolutional Neural Network (CNN)
 - a type of deep learning model architecture designed specifically for processing structured grid data, such as images. CNNs have proven to be highly effective in computer vision tasks, including image classification, object detection, segmentation, and more. They are characterized by their ability to automatically and adaptively learn spatial hierarchies of features directly from the data.
 ##
@@ -89,7 +89,7 @@ The model's architecture is implemented using the **Keras Sequential API**. Belo
 
 ----------------------
 
-### VI. Base Model
+### VI. 🚩 Base Model
 #### DenseNet121
 - a CNN architecture widely used as a base model for image classification tasks. It is part of the DenseNet (Densely Connected Convolutional Networks) family of models. These architectures are characterized by dense connectivity patterns, where each layer receives direct input from all preceding layers. The "121" in DenseNet121 denotes the total number of layers in the network.
 
@@ -97,7 +97,7 @@ The model's architecture is implemented using the **Keras Sequential API**. Belo
 
 ----------------------
 
-### VII. Dependencies
+### 📦 VII. Dependencies
 
 ***Main***
 - **Pandas** - a data analysis library that provides data structures like DataFrames for efficient data handling. 
@@ -118,7 +118,7 @@ The model's architecture is implemented using the **Keras Sequential API**. Belo
 
 ----------------------
 
-### VIII. Model Evaluation
+### 🧾 VIII. Model Evaluation
 | Set          | Loss      | Accuracy  |
 |--------------|-----------|-----------|
 | Train        | 0.038702  | 99.04%    |
@@ -135,7 +135,7 @@ After evaluating the model using the test set ([test_images](https://github.com/
 
 ----------------------
 
-### IX. Deployment
+### 🚀 IX. Deployment
 <img src="https://github.com/m3mentomor1/Breast-Cancer-Image-Classification-with-DenseNet121/assets/95956735/6d0001fd-6890-44aa-8f25-223b21e8ab39" width="300" />
 
 - a free and open-source Python framework to rapidly build and share beautiful machine learning and data science web apps. 
