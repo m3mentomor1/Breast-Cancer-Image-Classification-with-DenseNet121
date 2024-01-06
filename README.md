@@ -202,7 +202,7 @@ After evaluating the model using the test set ([test_images](https://github.com/
 
 ----------------------
 
-### 🚀 IX. Deployment
+### 🚀 IX. Model Deployment
 <img src="https://github.com/m3mentomor1/Breast-Cancer-Image-Classification-with-DenseNet121/assets/95956735/6d0001fd-6890-44aa-8f25-223b21e8ab39" width="300" />
 
 - a free and open-source Python framework to rapidly build and share beautiful machine learning and data science web apps. 
