@@ -127,7 +127,8 @@ After evaluating the model using the test set ([test_images](https://github.com/
 ----------------------
 
 ### IX. Deployment
-#### Streamlit ![image](https://github.com/m3mentomor1/Breast-Cancer-Image-Classification-with-DenseNet121/assets/95956735/d43f992d-3b66-4a61-aa32-77294c9132c6)
+![image](https://github.com/m3mentomor1/Breast-Cancer-Image-Classification-with-DenseNet121/assets/95956735/194d24a6-3268-4ce5-9498-c458a71a4895)
+#### Streamlit
 - a free and open-source Python framework to rapidly build and share beautiful machine learning and data science web apps. 
 ##
 The model is deployed using **Streamlit**, allowing for a straightforward and accessible user interface where users can conveniently do breast cancer image classification.
