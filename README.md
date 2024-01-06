@@ -119,6 +119,13 @@ The model's architecture is implemented using the **Keras Sequential API**. Belo
 ----------------------
 
 ### VIII. Model Evaluation
+| Set          | Loss      | Accuracy  |
+|--------------|-----------|-----------|
+| Train        | 0.038702  | 99.04%    |
+| Validation   | 0.188313  | 90.97%    |
+| Test         | 0.136501  | 94.94%    |
+
+Overall Accuracy = **94.94%**
 
 ----------------------
 
