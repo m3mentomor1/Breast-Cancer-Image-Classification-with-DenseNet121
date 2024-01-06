@@ -138,7 +138,7 @@ The model's architecture is implemented using the **Keras Sequential API**. Belo
 | Train        | 0.038702  | 99.04%    |
 | Validation   | 0.188313  | 90.97%    |
 | Test         | 0.136501  | 94.94%    |
-
+##
 **Confusion Matrix**
 
 ![image](https://github.com/m3mentomor1/Breast-Cancer-Image-Classification-with-DenseNet121/assets/95956735/48203e05-3c58-441c-aa56-7064245d77d9)
@@ -163,7 +163,7 @@ The model's architecture is implemented using the **Keras Sequential API**. Belo
    > Column 2 (0): The model predicted "malignant," but the true class was "normal." There are 0 instances of this case.
    
    > Column 3 (24): The model predicted "normal," and the true class was also "normal." There are 24 instances where both the prediction and the true class are "normal."
-
+##
 After evaluating the model using the test set ([test_images](https://github.com/m3mentomor1/Breast-Cancer-Image-Classification-with-DenseNet121/tree/7eb700a208efcd84beafbf412274f594bf1b85ce/test_images)), it demonstrated an overall accuracy of "**94.94%**".
 
 (For reference see: [model_evaluation.ipynb](https://github.com/m3mentomor1/Breast-Cancer-Image-Classification-with-DenseNet121/blob/8b2bca760563ec8af7e8245f871679e49711777f/model_evaluation.ipynb))
