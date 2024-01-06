@@ -51,7 +51,7 @@ In image classification, neural networks excel at capturing subtle patterns and 
 #### Convolutional Neural Network (CNN)
 - a type of deep learning model architecture designed specifically for processing structured grid data, such as images. CNNs have proven to be highly effective in computer vision tasks, including image classification, object detection, segmentation, and more. They are characterized by their ability to automatically and adaptively learn spatial hierarchies of features directly from the data.
 ##
-**Why CNN for Multiclass Classification?**
+**Why CNN?**
 
 CNNs have proven to be highly effective in computer vision tasks due to their ability to automatically and adaptively learn spatial hierarchies of features directly from diverse data sources such as images and videos.
 ##
