@@ -145,17 +145,23 @@ The model's architecture is implemented using the **Keras Sequential API**. Belo
 
 - Row 1: This corresponds to the "benign" class.
    > Column 1 (89): The model predicted "benign," and the true class was also "benign." There are 89 instances where both the prediction and the true class are "benign."
+   
    > Column 2 (0): The model predicted "malignant," but the true class was "benign." There are 0 instances of this case.
+   
    > Column 3 (1): The model predicted "normal," but the true class was "benign." There is 1 instance of this case.
 
 - Row 2: This corresponds to the "malignant" class.
    > Column 1 (5): The model predicted "benign," but the true class was "malignant." There are 5 instances of this case.
+   
    > Column 2 (37): The model predicted "malignant," and the true class was also "malignant." There are 37 instances where both the prediction and the true class are "malignant."
+   
    > Column 3 (0): The model predicted "normal," but the true class was "malignant." There are 0 instances of this case.
 
 - Row 3: This corresponds to the "normal" class.
    > Column 1 (2): The model predicted "benign," but the true class was "normal." There are 2 instances of this case.
+   
    > Column 2 (0): The model predicted "malignant," but the true class was "normal." There are 0 instances of this case.
+   
    > Column 3 (24): The model predicted "normal," and the true class was also "normal." There are 24 instances where both the prediction and the true class are "normal."
 
 After evaluating the model using the test set ([test_images](https://github.com/m3mentomor1/Breast-Cancer-Image-Classification-with-DenseNet121/tree/7eb700a208efcd84beafbf412274f594bf1b85ce/test_images)), it demonstrated an overall accuracy of "**94.94%**".
