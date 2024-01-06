@@ -30,6 +30,7 @@ Transfer learning involves adapting a pre-trained model to a specific task by fi
 - a type of learning in machine learning that involves training an algorithm on labeled data, where input samples are paired with corresponding output labels. The objective is to learn a mapping from input data to correct output labels by adjusting internal parameters during training, minimizing the difference between predicted outputs and true labels.
 ##
 **Why Supervised Learning?**
+
 The model's training adopted a supervised learning approach, as the dataset included explicit labels for each image. 
 
 ----------------------
