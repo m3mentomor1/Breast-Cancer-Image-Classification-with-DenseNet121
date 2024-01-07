@@ -39,7 +39,7 @@ The model's training adopted a supervised learning approach, as the dataset incl
 
 ### 🧮 IV. Algorithm Used
 #### Neural Networks 
-- a class of algorithms inspired by the structure and functioning of the human brain. It consists of interconnected nodes organized into layers. These layers typically include an input layer, one or more hidden layers, and an output layer. Each connection between nodes has an associated weight, and nodes within a layer may have activation functions.
+- also known as Artificial Neural Networks (ANNs), are a class of algorithms inspired by the structure and functioning of the human brain. It consists of interconnected nodes organized into layers. These layers typically include an input layer, one or more hidden layers, and an output layer. Each connection between nodes has an associated weight, and nodes within a layer may have activation functions.
 ##
 **Why Neural Networks?**
 
