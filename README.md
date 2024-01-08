@@ -218,21 +218,21 @@ The model is deployed on **Streamlit**, allowing for a straightforward and acces
 ----------------------
 
 ### 🛠️ X. How to Use?
-1. Clone this repository
+**1. Clone this repository**
 
    Paste this command on your terminal: 
    ```
    git clone https://github.com/m3mentomor1/Breast-Cancer-Image-Classification-with-DenseNet121.git
    ```
 
-2. Go to the repo's main directory
+**2. Go to the repository's main directory**
    
    Paste this command on your terminal:
    ```
    cd Breast-Cancer-Image-Classification-with-DenseNet121
    ```
 
-3. Install dependencies
+**3. Install dependencies**
 
    Paste this command on your terminal:
    ```
