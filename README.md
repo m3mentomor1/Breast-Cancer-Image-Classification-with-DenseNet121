@@ -214,3 +214,10 @@ After evaluating the model using the test set ([test_images](https://github.com/
 The model is deployed on **Streamlit**, allowing for a straightforward and accessible user interface where users can conveniently do breast cancer image classification.
 
 **Access the app here:** https://breast-cancer-image-classification-with-densenet121-v9dybugp4h.streamlit.app/
+
+----------------------
+
+### 🛠️ X. How to Use?
+1. Clone this repository
+
+Paste this command on your terminal: git clone https://github.com/m3mentomor1/Breast-Cancer-Image-Classification-with-DenseNet121.git
