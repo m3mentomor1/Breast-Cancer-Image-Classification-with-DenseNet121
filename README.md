@@ -220,4 +220,7 @@ The model is deployed on **Streamlit**, allowing for a straightforward and acces
 ### 🛠️ X. How to Use?
 1. Clone this repository
 
-Paste this command on your terminal: git clone https://github.com/m3mentomor1/Breast-Cancer-Image-Classification-with-DenseNet121.git
+Paste this command on your terminal: 
+```
+git clone https://github.com/m3mentomor1/Breast-Cancer-Image-Classification-with-DenseNet121.git
+```
