@@ -6,7 +6,7 @@ This repository focuses on a project dedicated to classifying **Breast Ultrasoun
 - **malignant**
 - **normal**
 
-Determining if there is a presence of **Breast Cancer**.
+This aims to accurately determine if there is a presence of **Breast Cancer**.
 
 The classification model used in this project relies on deep learning techniques, particularly **Convolutional Neural Networks (CNN)** and **Transfer Learning**, harnessing the power of a base model called **DenseNet121**. It is trained on a comprehensive dataset of annotated breast ultrasound images, leveraging these deep learning approaches to enhance its performance.
 
